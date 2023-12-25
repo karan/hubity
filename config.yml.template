@@ -1,0 +1,46 @@
+libraries:
+  Movies:
+    managed_hubs:
+    - Seasonal Movies:
+        identifier: movie.curated
+    - Recently Released Movies:
+        identifier: movie.recentlyreleased
+    - Top Movies in (Genre):
+        identifier: movie.genre
+    - Top Movies by (Actor or Director):
+        identifier: movie.by.actor.or.director
+    - Recently Added Movies:
+        identifier: movie.recentlyadded
+    - Top Unplayed Movies:
+        identifier: movie.topunwatched
+    - Recently Played Movies:
+        identifier: movie.recentlyviewed
+    - Library Playlists:
+        identifier: recent.library.playlists
+
+  TV Shows:
+    managed_hubs:
+    - Recently Released Episodes:
+        identifier: tv.recentlyaired
+    - Trending Shows:
+        identifier: custom.collection.2.219337
+    - Recently Added TV:
+        identifier: tv.recentlyadded
+    - Top Rated TV:
+        identifier: tv.toprated
+    - More in (Genre):
+        identifier: tv.moreingenre
+    - More from (Network):
+        identifier: tv.morefromnetwork
+    - Start Watching:
+        identifier: tv.startwatching
+    - Rediscover:
+        identifier: tv.rediscover
+    - Library Playlists:
+        identifier: recent.library.playlists
+    - Recently Played Episodes:
+        identifier: tv.recentlyviewed
+
+plex:
+  token: abc1234
+  url: https://plex.local
